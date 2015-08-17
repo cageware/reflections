@@ -1,0 +1,29 @@
+LESSON 1
+This is my first reflection:  "We do not learn from experience, we learn from reflecting on experience"
+
+How did viewing a diff between two versions of a file help you see the bug that was introducted?
+-> The bug that was introducted was a result of a change to an existing code that did not have that bug.  Viewing the changes allowed me to see the differences that introduced that bug.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+->  Having access to a file's history can help me see how the file has evolved, what was done in the past as a solution, and what has not been tried that may be used as a potential future solution
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do on Git, vs having versions automatically saved, like Google docs does
+-> Pros: manual commits allow you to experiment with code before formally controlling it or sharing it with others; Cons: forgetting to commit (or waiting for an certain maturity before committing) can lead to development forks or missed introduction of code
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+-> Saving multiple files in one commit allows Git to provide a snapshot of all of the files needed for compliation on one place.
+
+How can you use the commmands git log and git diff to view the history of files?
+->  git log shows you a listing of past commits, and git diff allows you to see the differences between two commits
+
+How might using version control make you more confident to make changes that could break something?
+->  knowing that a previous version can easily be brought back allows me to make confident changes.  Also seeing the git diff between versions let me review areas that may have introduced bugs.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+-> next use: intro to machine learning course that asks us to git clone a sample repository
+
+Concepts:
+-- Version Control -> Git allows for Commits
+
+
+
