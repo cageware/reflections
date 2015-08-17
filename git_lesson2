@@ -1,0 +1,43 @@
+LESSON 2
+What happens when you initialize a repository? Why do you need to do it?
+-> git creates a .git subdirectory with lots of metadata files and 
+folders.  This way git knows to start version control on this directory
+
+How is the staging area different from the working directory and the 
+repository?  What value do you think it offers?
+-> the staging area is an in-between area that allows me to make a 
+deliberate effort to collect files that should be committed.  It points 
+to working directory files that I select, and will be included as commit 
+in the respository after I perform a commit.  The value it offers is 
+being able to group together related files for a commit and not include 
+temporary or early draft files in the repository.
+
+How can you use the staging area to make sure you have one commit per 
+logical change?
+-> I can add all of the files related to a logical change to the staging
+area manually, and then commit.  Then I can repeat this process with
+another logical change.
+
+What are some situations when branches would be helpful in keeping your
+history organized?  How would branches help?
+-> Situations: in a case where I would like to start using experiemental
+code or diverge from production code for refactoring.  Branches help
+my keeping the master branch unchanged, which allowing for and easy
+switch between checkouts.
+
+How do the diagrams help you visualize the branch structure?
+-> Diagrams lets me see the parental history of branch, the point of 
+branching, and commits that are disassociated with a branch.
+
+What is the result of merging two branches together? Why do we represent 
+it in the diagram the way we do?
+-> After merging two branches, changes from both branches are 
+incorporated in a merged set of codes.  In the diagram, we represent them 
+as coming back together because that is what happens to the code.
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+-> automatic merging: pro: allows me to quick incorporate branched work
+into the master, con: may have conflicts that require manual inter-
+vention; manual merging: pro: have full control of what is being
+merged, con: takes more time, could be tedious even for easy merges
